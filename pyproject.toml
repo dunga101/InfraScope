@@ -1,0 +1,18 @@
+[project]
+name = "infrascope"
+version = "0.1.0"
+description = "Lightweight Windows observability agent for anomaly detection"
+authors = [
+  { name="Dulanga Mudalige" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+  "psutil",
+  "pywin32",
+  "pyyaml"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
